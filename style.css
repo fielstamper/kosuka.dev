@@ -14,9 +14,28 @@ body {
     font-size: 16px;
 }
 
-.twittersvg svg {
+.content-wrapper .twittersvg svg {
     width: 1.5vw;
     height: auto;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    /* Prevents horizontal scrolling */
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centers content */
 }
 
 
@@ -43,14 +62,7 @@ body {
     width: 40vw;
     margin-top: 20px;
     margin-bottom: 0px;
-}
-
-.line2 {
-    height: 1px;
-    background-color: #3b3b3b;
-    width: 40vw;
-    margin-top: 20px;
-    margin-bottom: 0px;
+    width: 100%;
 }
 
 
