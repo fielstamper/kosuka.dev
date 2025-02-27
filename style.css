@@ -485,7 +485,12 @@ a.left-link {
 
 }
 
+@media (max-width: 768px) {
 
+    .bottom-img img {
+        width: 7vw;
+    }
+}
 
 .bottom-text a {
     color: rgb(180, 180, 180);
