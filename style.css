@@ -19,6 +19,10 @@ body {
     height: auto;
 }
 
+.timebox img {
+    fill: #b4b4b4;
+}
+
 html,
 body {
     overflow-x: hidden;
@@ -283,7 +287,6 @@ a.Contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 10px;
 }
 
 .line {
