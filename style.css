@@ -464,9 +464,28 @@ a.left-link {
 }
 
 .bottom-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: rgb(180, 180, 180);
     text-decoration: none;
 }
+
+.bottom-img {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.bottom-img img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 1.8vw;
+
+}
+
+
 
 .bottom-text a {
     color: rgb(180, 180, 180);
