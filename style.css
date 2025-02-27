@@ -8,10 +8,13 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 16px;
+}
+
+.killme {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 16px;
 }
 
 .content-wrapper .twittersvg svg {
@@ -22,22 +25,7 @@ body {
 html,
 body {
     overflow-x: hidden;
-    /* Prevents horizontal scrolling */
 }
-
-.content-wrapper {
-    max-width: 1200px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* Centers content */
-}
-
 
 .title h1 {
     margin-bottom: 0;
@@ -54,15 +42,6 @@ body {
     line-height: 1;
     font-weight: 400;
     font-size: 18px;
-}
-
-.line {
-    height: 1px;
-    background-color: #3b3b3b;
-    width: 40vw;
-    margin-top: 20px;
-    margin-bottom: 0px;
-    width: 100%;
 }
 
 
@@ -308,6 +287,22 @@ a.Contact {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
+}
+
+.line {
+    height: 1px;
+    background-color: #3b3b3b;
+    width: 40vw;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.line-main {
+    height: 1px;
+    background-color: #3b3b3b;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 100%;
 }
 
 .left-link {
