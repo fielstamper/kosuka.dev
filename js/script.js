@@ -57,4 +57,3 @@ async function lastfm() {
 
     setTimeout(lastfm, 3 * 1000);
 }
-
