@@ -35,11 +35,11 @@ body {
 @media (max-width: 768px) {
 
     .albums {
-        min-width: 80vw;
+        min-width: 90vw;
     }
 
     .albums img {
-        min-width: 20vw;
+        min-width: 30vw;
     }
 
     .wrapper-music {
