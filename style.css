@@ -34,35 +34,16 @@ body {
 
 @media (max-width: 768px) {
 
-    .wrapper-music {
-        width: 90vw;
-        min-width: 280px;
-    }
-
-}
-
-@media (max-width: 768px) {
-
     .albums {
-        display: flex;
-        justify-content: center;
-        width: 80vw;
-        min-width: 400px;
+        min-width: 80vw;
     }
 
     .albums img {
-        width: 20vw;
-        height: auto;
-        min-width: 100px;
-    }
-
-    .music-title {
-        display: flex;
-        justify-content: center;
+        min-width: 20vw;
     }
 
     .wrapper-music {
-        justify-content: center;
+        min-width: 80vw;
     }
 }
 
