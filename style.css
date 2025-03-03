@@ -19,6 +19,15 @@ body {
     padding-left: 17px;
 }
 
+@media (max-width: 768px) {
+
+    .wrapper {
+        width: 90vw;
+        padding-left: 0;
+        min-width: 280px;
+    }
+}
+
 .content-wrapper .twittersvg svg {
     width: 1.5vw;
     height: auto;
@@ -65,6 +74,16 @@ body {
         min-width: 280px;
     }
 }
+
+@media (max-width: 768px) {
+
+    .line-main {
+        width: 90vw;
+
+        min-width: 280px;
+    }
+}
+
 
 .About {
     font-size: 18px;
@@ -299,6 +318,7 @@ a.Contact {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .line {
     height: 1px;
