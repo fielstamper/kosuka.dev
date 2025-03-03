@@ -89,13 +89,17 @@ body {
 
     .line {
         width: 90vw;
-        min-width: 280px;
+        min-width: 90vw;
     }
 
     .line-main {
         width: 90vw;
 
-        min-width: 280px;
+        min-width: 90vw;
+    }
+
+    .wrapper-music {
+        min-width: 90vw;
     }
 }
 
