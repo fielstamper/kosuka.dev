@@ -51,6 +51,15 @@ body {
         justify-content: center;
         min-width: 90vw;
     }
+
+    .title-music {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 90vw;
+        margin: 0;
+    }
 }
 
 .content-wrapper .twittersvg svg {
