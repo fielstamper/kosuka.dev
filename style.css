@@ -28,6 +28,44 @@ body {
     }
 }
 
+.wrapper-music {
+    width: 40vw;
+}
+
+@media (max-width: 768px) {
+
+    .wrapper-music {
+        width: 90vw;
+        min-width: 280px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .albums {
+        display: flex;
+        justify-content: center;
+        width: 80vw;
+        min-width: 400px;
+    }
+
+    .albums img {
+        width: 20vw;
+        height: auto;
+        min-width: 100px;
+    }
+
+    .music-title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrapper-music {
+        justify-content: center;
+    }
+}
+
 .content-wrapper .twittersvg svg {
     width: 1.5vw;
     height: auto;
@@ -70,12 +108,8 @@ body {
 
     .line {
         width: 90vw;
-
         min-width: 280px;
     }
-}
-
-@media (max-width: 768px) {
 
     .line-main {
         width: 90vw;
@@ -546,7 +580,6 @@ a.right-links {
     flex-wrap: wrap;
     gap: 10px;
     justify-content: center;
-
 }
 
 .albums img {
