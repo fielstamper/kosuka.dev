@@ -45,6 +45,10 @@ body {
     .wrapper-music {
         min-width: 80vw;
     }
+
+    .music-title {
+        min-width: 90vw;
+    }
 }
 
 .content-wrapper .twittersvg svg {
