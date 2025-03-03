@@ -47,6 +47,8 @@ body {
     }
 
     .music-title {
+        display: flex;
+        justify-content: center;
         min-width: 90vw;
     }
 }
