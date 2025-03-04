@@ -1,0 +1,450 @@
+body {
+    position: relative;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: white;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.first-section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    background-image: url('/home/assets/6155200.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(0px);
+    transform: scale(1.04);
+    z-index: -1;
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 1vw;
+    gap: 5px;
+}
+
+.nav-icons img {
+    width: 2.5vw;
+}
+
+.nav-icons img:hover {
+    background-color: rgba(105, 105, 105, 0.329);
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(5, 5, 5, 0.9);
+}
+
+.second-section {
+    height: 150vh;
+    background-color: #0a0a0a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.center-content {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 30vw;
+    text-align: center;
+}
+
+.center-text h1 {
+    font-weight: 600;
+    font-size: 44px;
+    color: white;
+    margin: 0;
+}
+
+.center-text a {
+    color: rgb(130, 130, 255)
+}
+
+.center-text h6 {
+    font-weight: 400;
+    font-size: 12px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.center-text {
+    font-weight: 300;
+    font-size: 16px;
+    color: rgb(143, 143, 143);
+    margin-bottom: 15px;
+}
+
+.second-section-wrapper {
+    height: 100%;
+}
+
+.skills-header {
+    padding-top: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    width: 50vw;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.skills-header h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.skills-subtext {
+    display: flex;
+    color: rgb(143, 143, 143);
+}
+
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.tailwind-box img,
+.python-box img,
+.js-box img,
+.astro-box img {
+    padding: 0;
+    border-radius: 10px;
+}
+
+.html-box,
+.tailwind-box,
+.js-box,
+.python-box,
+.astro-box {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #1a1a1a;
+    width: 7.5vw;
+    height: 5.5vh;
+    border: 3px solid #1a1a1a;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tailwind-box h6,
+.js-box h6,
+.python-box h6,
+.astro-box h6 {
+    color: white;
+}
+
+.tailwind-box p,
+.js-box p,
+.python-box p,
+.astro-box p {
+    color: white;
+    padding-left: 0.5vw;
+    transition: all .1s ease-in-out;
+}
+
+.tailwind-box:hover,
+.js-box:hover,
+.python-box:hover,
+.astro-box:hover {
+    background-color: rgba(105, 105, 105, 0.329);
+}
+
+.break {
+    height: 1px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 4vh;
+}
+
+
+.project-header {
+    padding-top: 4vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    width: 50vw;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.project-header h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.my-projects-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    padding-top: 30px;
+}
+
+.my-project-one {
+    background-color: #1a1a1a;
+    width: 17vw;
+    height: 16vh;
+    border: 2px solid #222222;
+    border-radius: 10px;
+    transition: all .05s ease-in-out;
+}
+
+.my-project-one:hover {
+    background-color: rgba(71, 71, 71, 0.329);
+}
+
+.my-project-one h6 {
+    font-weight: 400;
+    padding: 10px;
+    font-size: 17px;
+    margin: 0;
+    margin-top: -60px;
+    padding: 20px;
+    color: rgb(255, 195, 155);
+}
+
+.my-project-one p {
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 0px;
+    padding: 20px;
+    color: rgb(143, 143, 143);
+}
+
+
+a.my-project-one {
+    text-decoration: none;
+}
+
+.my-project-one-icon {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my-project-one-icon img {
+    width: 2vw;
+    padding: 10px;
+}
+
+
+.other-projects-header {
+    padding-top: 4vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    width: 50vw;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.other-projects-header h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.other-projects-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    padding-top: 30px;
+    gap: 20px;
+}
+
+.other-project-one {
+    background-color: #1a1a1a;
+    width: 17vw;
+    height: 16vh;
+    border: 2px solid #222222;
+    border-radius: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.other-project-one:hover {
+    background-color: rgba(71, 71, 71, 0.329);
+}
+
+.other-project-one h6 {
+    font-weight: 400;
+    padding: 10px;
+    font-size: 17px;
+    margin: 0;
+    padding: 20px;
+    color: #a8b3de;
+}
+
+.other-project-one p {
+    font-weight: 300;
+    font-size: 17px;
+    padding: 20px;
+    margin-top: -15px;
+    color: rgb(143, 143, 143);
+}
+
+a.other-project-one {
+    text-decoration: none;
+}
+
+.blog-header {
+    padding-top: 4vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    width: 50vw;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.blog-header h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.blog-one {
+    background-color: #1a1a1a;
+    width: 17vw;
+    height: 16vh;
+    border: 2px solid #222222;
+    border-radius: 10px;
+    transition: all .1s ease-in-out;
+}
+
+.blog-one:hover {
+    background-color: rgba(71, 71, 71, 0.329);
+}
+
+.blog-one h6 {
+    font-weight: 400;
+    padding: 10px;
+    font-size: 17px;
+    margin: 0;
+    padding: 20px;
+    color: rgb(255, 195, 155);
+}
+
+.blog-one p {
+    font-weight: 300;
+    font-size: 17px;
+    margin-top: 0px;
+    padding: 20px;
+    color: rgb(143, 143, 143);
+}
+
+
+a.blog-one {
+    text-decoration: none;
+}
+
+
+.blog-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: column;
+    padding-top: 30px;
+}
+
+
+.friends-header {
+    padding-top: 5vh;
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.friends-header h1 {
+    font-weight: 400;
+    font-size: 25px;
+    color: white;
+    margin: 0;
+}
+
+.break-friends {
+    height: 1px;
+    background-color: rgb(26, 26, 26);
+}
+
+.friends {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-top: 2vh;
+    padding-left: 0.5vw;
+}
+
+.friends img {
+    width: 2.5vw;
+    border: 2px solid #ff9ac1;
+}
+
+.friends a {
+    text-decoration: none;
+}
+
+
+
+
+.break-footer {
+    height: 1px;
+    background-color: rgb(26, 26, 26);
+    margin-top: 2vh;
+}
+
+.footer-text {
+    padding-top: 1vh;
+}
+
+.footer-text a {
+    color: rgb(143, 143, 143);
+}
