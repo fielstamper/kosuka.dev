@@ -601,3 +601,56 @@ a.right-links {
     display: flex;
     justify-content: center;
 }
+
+.skills-wrapper {
+    display: flex;
+    flex-direction: row;
+    background-color: #1d1d1d;
+    width: 10.1vw;
+    border-radius: 5px;
+
+}
+
+.neovim-box img,
+.python-box img,
+.js-box img,
+.astro-box img {
+    padding: 0;
+    border-radius: 10px;
+}
+
+.html-box,
+.neovim-box,
+.js-box,
+.python-box,
+.astro-box {
+    display: flex;
+    justify-content: flex-start;
+    width: 2vw;
+    height: 4vh;
+    padding: 5px;
+}
+
+.neovim-box:hover,
+.js-box:hover,
+.python-box:hover,
+.astro-box:hover {
+    background-color: rgba(105, 105, 105, 0.329);
+}
+
+
+@media (max-width: 768px) {
+
+    .skills-wrapper {
+        padding-left: 0;
+        width: 37vw;
+    }
+
+    .html-box,
+    .neovim-box,
+    .js-box,
+    .python-box,
+    .astro-box {
+        width: 7vw;
+    }
+}
